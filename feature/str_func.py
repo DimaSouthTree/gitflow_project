@@ -1,4 +1,4 @@
-def str_func(value):
+def str_func(value: str) -> str:
     """
 
     :param value: слово или строку
@@ -7,7 +7,7 @@ def str_func(value):
     return value.upper()
 
 
-def str_func_two(value):
+def str_func_two(value: str) -> str:
     """
 
     :param value: слово или строку
